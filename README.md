@@ -35,7 +35,7 @@ Wherever you want to use ACF Objects, import the Otomaties\AcfObjects\Acf class:
 ```
 #### Fields with array access (Gallery, Repeater, Flexible Content)
 ```php
-<?php if(!Acf::getField('fieldname')->isEmpy()): ?>
+<?php if(!Acf::getField('fieldname')->isEmpty()): ?>
 <?php endif; ?>
 ```
 
